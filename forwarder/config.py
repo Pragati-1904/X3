@@ -10,7 +10,7 @@ class Development(Config):
     FROM_CHATS = [-1001455456913]# List of chat id's to forward messages from.
     TO_CHATS = [-1001716237919,-1001709087053,-1001751021009,-1001741161728,-1001189750195,-1001688416622,-1001419102324,-1001767529378]# List of chat id's to forward messages to.
 
-    REMOVE_TAG = False
+    REMOVE_TAG = True
     WORKERS = 16
    
     
